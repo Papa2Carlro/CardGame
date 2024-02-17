@@ -1,0 +1,7 @@
+[*.{ts, tsx, scss}]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+trim_trailing_whitespace = true
+indent_size = 2
+insert_final_newline = true

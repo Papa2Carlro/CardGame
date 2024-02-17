@@ -1,0 +1,20 @@
+.Cards {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 14px;
+
+  &__card {
+    width: 100%;
+
+    img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    &.player {
+      cursor: pointer;
+    }
+  }
+}
